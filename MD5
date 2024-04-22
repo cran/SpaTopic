@@ -1,7 +1,7 @@
-dfaedd63d18ad73958060b318df631c3 *DESCRIPTION
+01214a216b1ae751567679bd33996ef4 *DESCRIPTION
 9c9c660d973b8fd4da0217c079cc9eef *NAMESPACE
-0f2f99e2bfdd558ff7c9fec9f7bd236c *NEWS.md
-5af2b23869e7f8445f7c9cf87c86c3c4 *R/Gibbs_sampler.R
+29a4d4f001b6a8fd80a8a5b3be840147 *NEWS.md
+88609ad023ce4f77afe2227bb8f19049 *R/Gibbs_sampler.R
 f023ef38803a5e8fdc9577ee8c978a44 *R/RcppExports.R
 72cd93b5800e647a635615cc4cc1492e *R/SpaTopic-package.R
 dd89fabf2d6f2302772be964c0b3445d *R/class.R
@@ -9,12 +9,12 @@ cf0e4537b1cea12bcbad8b8bf968f899 *R/image_data.R
 957157e788321af4e590d378ebd86781 *R/misc.R
 818ff830a1cb3d784845335447347fb3 *R/prepare_SpaTopic_input.R
 13bd077b4c07024ad7272a6d93a21272 *R/spatial_func.R
-8379fbf4e9aac3a2555f50e97c3dbcfb *README.md
+1ebca8dd785798c450c004fc44ad51a5 *README.md
 8b5c898f2cb96add5fbf1be944c5b3a5 *build/vignette.rds
 09602d1e282179438ff3aa26318e1660 *data/lung5.rda
 deec3c519e5f35a16b9bf1f492690eb7 *inst/doc/Intro_SpaTopic.R
-9fb976bbda1b4e984fe56aebeb778690 *inst/doc/Intro_SpaTopic.Rmd
-39aad78a6a65de0a95ce17882f81820d *inst/doc/Intro_SpaTopic.html
+c4e96a3314171bdc40b1d51fe6e5eb0e *inst/doc/Intro_SpaTopic.Rmd
+1a83c4d51b96993f3ac137e74ca11f13 *inst/doc/Intro_SpaTopic.html
 6ebdc943ba1da0924b9f5662792dc15d *man/Seurat5obj_to_SpaTopic.Rd
 75b8559f8a8faee7011eb21af6d69e36 *man/SpaTopic-Package.Rd
 0756ba960b3a708a044210e22119695c *man/SpaTopic_inference.Rd
@@ -25,4 +25,4 @@ f2a1d6b70e21759db6ed87fb13e89e91 *src/Gibbs.cpp
 6531f69b8dbd39bb9d132e943f3db30a *src/Makevars
 ca9188cde058d3f84a5ca9b357ff8f96 *src/Makevars.win
 5d734365f80ee0b80853766c0485b09a *src/RcppExports.cpp
-9fb976bbda1b4e984fe56aebeb778690 *vignettes/Intro_SpaTopic.Rmd
+c4e96a3314171bdc40b1d51fe6e5eb0e *vignettes/Intro_SpaTopic.Rmd

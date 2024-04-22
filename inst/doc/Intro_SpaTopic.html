@@ -12,7 +12,7 @@
 
 <meta name="author" content="Xiyu Peng" />
 
-<meta name="date" content="2023-12-20" />
+<meta name="date" content="2024-04-20" />
 
 <title>SpaTopic Basics</title>
 
@@ -149,7 +149,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <h1 class="title toc-ignore">SpaTopic Basics</h1>
 <h4 class="author">Xiyu Peng</h4>
-<h4 class="date">2023-12-20</h4>
+<h4 class="date">2024-04-20</h4>
 
 
 
@@ -189,11 +189,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  $ Perplexity   : num 11.3</span></span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  $ Deviance     : num 485960</span></span>
 <span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  $ loglikelihood: num -242980</span></span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  $ Beta         : num [1:38, 1:7] 0.03587 0.02539 0.00755 0.01858 0.02585 ...</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  $ Theta        : num [1:971, 1:7] 0.855601 0.000232 0.999269 0.99889 0.998725 ...</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  $ Ndk          : int [1:971, 1:7] 107 0 82 54 47 72 100 0 0 0 ...</span></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  $ Nwk          : int [1:38, 1:7] 390 276 82 202 281 505 697 522 29 58 ...</span></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  $ Z.trace      : int [1:100149, 1:7] 13 173 27 164 157 4 20 21 15 19 ...</span></span></code></pre></div>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  $ Beta         :&#39;data.frame&#39;:   38 obs. of  7 variables:</span></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   ..$ topic1: num [1:38] 0.03587 0.02539 0.00755 0.01858 0.02585 ...</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   ..$ topic2: num [1:38] 6.51e-03 3.55e-02 2.62e-06 5.80e-04 7.75e-01 ...</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   ..$ topic3: num [1:38] 4.54e-06 4.54e-06 9.13e-04 3.45e-01 1.73e-03 ...</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   ..$ topic4: num [1:38] 0.02664 0.01743 0.00186 0.0152 0.08919 ...</span></span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   ..$ topic5: num [1:38] 2.99e-06 2.99e-06 5.32e-03 1.91e-02 4.90e-03 ...</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   ..$ topic6: num [1:38] 6.35e-06 6.35e-06 2.04e-02 3.43e-03 6.35e-06 ...</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   ..$ topic7: num [1:38] 0.00534 0.00699 0.00604 0.01843 0.00655 ...</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  $ Theta        : num [1:971, 1:7] 0.855601 0.000232 0.999269 0.99889 0.998725 ...</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  $ Ndk          : int [1:971, 1:7] 107 0 82 54 47 72 100 0 0 0 ...</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  $ Nwk          : int [1:38, 1:7] 390 276 82 202 281 505 697 522 29 58 ...</span></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;  $ Z.trace      :&#39;data.frame&#39;:   100149 obs. of  7 variables:</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   ..$ topic1: num [1:100149] 0.065 0.865 0.135 0.82 0.785 0.02 0.1 0.105 0.075 0.095 ...</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   ..$ topic2: num [1:100149] 0 0 0 0 0 0 0 0 0 0 ...</span></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   ..$ topic3: num [1:100149] 0.275 0.005 0.21 0.005 0.005 0.77 0.02 0.015 0.085 0.075 ...</span></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   ..$ topic4: num [1:100149] 0.415 0 0 0.01 0.005 0.1 0.665 0.62 0.015 0.025 ...</span></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   ..$ topic5: num [1:100149] 0.005 0.01 0 0 0 0 0.005 0.005 0.005 0 ...</span></span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   ..$ topic6: num [1:100149] 0 0 0.655 0.165 0.205 0.005 0 0 0 0 ...</span></span>
+<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a><span class="co">#&gt;   ..$ topic7: num [1:100149] 0.24 0.12 0 0 0 0.105 0.21 0.255 0.82 0.805 ...</span></span></code></pre></div>
 <p>For more detailed usage of SpaTopic and how to interprete output from SpaTopic, please check the complete tutorial in <a href="https://xiyupeng.github.io/SpaTopic/">SpaTopic Home Page</a>. We also provide a function to prepare input from Seurat v5 object.</p>
 </div>
 

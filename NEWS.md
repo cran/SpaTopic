@@ -1,3 +1,5 @@
+# SpaTopic 1.1.0
+
 # SpaTopic 1.0.1
 
 # SpaTopic 1.0
